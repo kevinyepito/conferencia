@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+
+
+.hexagon {
+
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+}
+
+#marquee-container {
+    background-color: rgb(182, 12, 35);
+    color: white;
+}
+
+
+#cards-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+#nombre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25 px;
+    color: black;
+    text-align: center;
+    
+}
+
+#cargo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20 px;
+    color: rgb(182, 12, 35);
+    text-align: center;
+}
+
+#descripcion{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20 px;
+    color: rgb(102, 95, 96);
+}
+
+.social-webs-container {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    
+}
+
+.social-web{
+    background-color: rgb(29, 120, 148);
+    width: 60px;
+    height: 52px;
+    transition: all 0.2s ease; 
+}
+
+.social-web:hover{
+    cursor: pointer;
+    background-color: rgb(29, 94, 148);
+    transition: all 0.2s ease;
+}
+
+p{
+    text-align: center;
+}
+
+.card-persona {
+    display: grid;
+    place-items: center;
+
+    
+}
+
+.card-persona:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 2px rgb(0, 0, 0);
+    
+    
+}
+
+#informacion{
+    width: 350px;
+    height: 100px;
+    color: white;
+    font-size: large;
+    background-color: rgb(182, 12, 35);
+    border-color: rgb(182, 12, 35);
+    border-radius: 10%;
+    text-align: center;
+    transition: all 0.2s; 
+}
+#informacion:hover{
+    cursor: pointer;
+    width: 400px;
+    height: 150px;
+
+
+}
+
+#btn-container{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
