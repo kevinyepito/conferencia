@@ -1,0 +1,2 @@
+En este trabajo se realizó una página que muestra un reparto de conferencistas, usando HTML de una forma estructurada dejando de ser solo escribir divs por doquier y usadno la estructura semántica donde se separaba por header, body, sections y articles.
+Hice una sección donde agrupé las cartas de presentación de los profesionales y traté de agrupar los elementos que fueran similares, como textos o redes sociales
